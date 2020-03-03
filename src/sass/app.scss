@@ -1,0 +1,11 @@
+body { font-weight: 700; }
+/*
+發布時:
+1. $image-path 請換成/export/路徑
+2. _gt-unit, _bootstrap 請註解
+*/
+$image-path: '../images/';
+//$image-path: '/export/sites/aptg/event/images/019/';
+//@import '_gt-unit';
+@import '_bootstrap.min';
+@import '_layout';
